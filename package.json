@@ -1,0 +1,14 @@
+{
+  "name": "test-yarn1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "echo:bar": "echo 'bar'",
+    "echo:foo": "echo 'foo'",
+    "echo": "run-p echo:*"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
